@@ -18,6 +18,8 @@ Para autenticação do ambiente, foi escolhido o modo Jwt com Bearer, pois este 
 Para acessar API externa (OpenWeather) foi utilizado o pacote Refit.
 Para trabalho das classes em JSON foi utilizado o pacote NewtonSoft.
 Para injeção de dependencias foi utilizado o AutoMapper.
+Para encapsulamento do serviço foi utilizado container Docker.
+Para disponibilização online do serviço, foi utilizado o Heroku.
 
 A arquitetura utilizada no projeto, foi uma versão  baseda no modelo DDD, onde não houve a separação dos papeis, para que houvesse os acessos não cíclicos. Sendo assim todo o escopo, Application, Domain, Data, CrossCutting e Service, ficaram contidos no mesmo projeto, fazem uma clara violação ao modelo DDD.
 
