@@ -17,3 +17,8 @@ Para documentação da API, foi utilizado o Swagger (Swashbuckle) na versão mai
 Para autenticação do ambiente, foi escolhido o modo Jwt com Bearer, pois este proporciona uma autenticação simples e rápida.
 Para acessar API externa (OpenWeather) foi utilizado o pacote Refit.
 Para trabalho das classes em JSON foi utilizado o pacote NewtonSoft.
+Para injeção de dependencias foi utilizado o AutoMapper.
+
+A arquitetura utilizada no projeto, foi uma versão  baseda no modelo DDD, onde não houve a separação dos papeis, para que houvesse os acessos não cíclicos. Sendo assim todo o escopo, Application, Domain, Data, CrossCutting e Service, ficaram contidos no mesmo projeto, fazem uma clara violação ao modelo DDD.
+
+Para gerar o minimo de acoplamentos e ainda fazer uso de interfaces, tentando presever as boas praticas para desenvolvimento, foi utilizado injeção de dependencia, provendo o acesso ao que seria a camada de dados.
