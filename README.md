@@ -1,5 +1,5 @@
 # nicoletiweathermusic
 
-Utilizar o usuario (somente nome) para autenticar.
+Utilizar o usuario Git (somente nome) para autenticar.
 
 https://nicoletiweathermusic.herokuapp.com/index.html
